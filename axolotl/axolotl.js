@@ -9,6 +9,8 @@ lienzo.lineTo(200, 200);
 lienzo.stroke();
 lienzo.closePath(); //fin dibujo
 */
+
+
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
 {
     lienzo.beginPath(); 
@@ -18,3 +20,6 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
     lienzo.stroke();
     lienzo.closePath(); 
 }
+
+dibujarLinea("pink",10,300,220,10);
+dibujarLinea("purple",10,300,220,200);
