@@ -80,6 +80,13 @@ dibujarLinea(color1, 170, 170, 140, 170);
 dibujarLinea(color1, 140, 170, 140, 140);
 
 
+//ojito derecho
+dibujarLinea(color1, 300, 140, 330, 140);
+dibujarLinea(color1, 330, 140, 330, 170);
+dibujarLinea(color1, 330, 170, 300, 170);
+dibujarLinea(color1, 300, 170, 300, 140);
+
+
 
 
 
