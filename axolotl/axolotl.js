@@ -7,7 +7,7 @@ var color2 = "pink";
 
 //borde
 //dibujarLinea(color1, 1, 1, 1, 299);  
-dibujarLinea(color1, 1, 299, 299, 299);
+dibujarLinea(color1, 1, 299, 499, 299);
 
 
 // borde superior dibujarLinea(color2, 0, 0, 90, 0);
@@ -18,6 +18,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
     lienzo.strokeStyle=color;  
     lienzo.moveTo(xinicial, yinicial);
     lienzo.lineTo(xfinal, yfinal);
+    //lienzo.fillStyle
     lienzo.stroke();
     lienzo.closePath(); 
 }
@@ -65,7 +66,18 @@ dibujarLinea(color2, 350, 230, 370, 190);
 dibujarLinea(color2, 370, 190, 370, 110);
 dibujarLinea(color2, 370, 110, 350, 80);
 
+//Ojitos y boquita
+//ctx.fillStyle = "#92B901"
+//dibujarLinea(color1, 140, 140, 170, 140);
 
+/*dibujarLinea.fillStyle = color1;
+				dibujarLinea.fillRect(color1, 140, 140, 170, 140);*/
+
+//ojito izquierdo
+dibujarLinea(color1, 140, 140, 170, 140);
+dibujarLinea(color1, 170, 140, 170, 170);
+dibujarLinea(color1, 170, 170, 140, 170);
+dibujarLinea(color1, 140, 170, 140, 140);
 
 
 
