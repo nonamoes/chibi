@@ -2,7 +2,7 @@ var d= document.getElementById("dibujito");
 var lienzo = d.getContext("2d");  //Objeto canvas y se hara en 2 D
 console.log(lienzo);
 
-var color1 ="gray";
+var color1 ="pink";
 var color2 = "pink";
 
 //borde
