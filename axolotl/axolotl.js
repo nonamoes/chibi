@@ -24,7 +24,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
 
 //Axolotlito :3
 //dibujarLinea(xi, yi, xf, yf)
-
+//mide 480 ancho y largo 290
 // lado izquierdo:
 dibujarLinea(color2, 30, 20, 110, 20);
 dibujarLinea(color2, 30, 20, 30, 80);
@@ -46,5 +46,32 @@ dibujarLinea(color2, 110, 130, 110, 200);
 dibujarLinea(color2, 110, 200, 140, 230);
 
 dibujarLinea(color2, 140, 230, 350, 230);
+
+//carita derecha:
+
+dibujarLinea(color2, 350, 80, 380, 20);
+dibujarLinea(color2, 380, 20, 450, 20);
+dibujarLinea(color2, 450, 20, 450, 80);
+dibujarLinea(color2, 450, 80, 420, 110);
+dibujarLinea(color2, 420, 110, 480, 110);
+dibujarLinea(color2, 480, 110, 480, 200);
+dibujarLinea(color2, 480, 200, 430, 200);
+dibujarLinea(color2, 430, 200, 460, 240);
+dibujarLinea(color2, 460, 240, 460, 280);
+dibujarLinea(color2, 460, 280, 400, 280);
+dibujarLinea(color2, 400, 280, 350, 230);
+
+dibujarLinea(color2, 350, 230, 370, 190);
+dibujarLinea(color2, 370, 190, 370, 110);
+dibujarLinea(color2, 370, 110, 350, 80);
+
+
+
+
+
+
+
+
+
 
 
