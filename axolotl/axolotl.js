@@ -37,6 +37,14 @@ dibujarLinea(color2, 20, 230, 20, 280);
 dibujarLinea(color2, 20, 280, 90, 280);
 dibujarLinea(color2, 90, 280, 140, 230 );
 
+// carita izq:
+dibujarLinea(color2, 110, 20, 150, 80);
+dibujarLinea(color2, 150, 80, 350, 80);
 
+dibujarLinea(color2, 150, 80, 110, 130);
+dibujarLinea(color2, 110, 130, 110, 200);
+dibujarLinea(color2, 110, 200, 140, 230);
+
+dibujarLinea(color2, 140, 230, 350, 230);
 
 
