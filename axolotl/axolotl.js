@@ -86,13 +86,16 @@ dibujarLinea(color1, 330, 140, 330, 170);
 dibujarLinea(color1, 330, 170, 300, 170);
 dibujarLinea(color1, 300, 170, 300, 140);
 
-//boquita Opcion 1
-dibujarLinea(color1, 180, 200, 200, 200);
+//boquita Opcion 1   __|
+/*dibujarLinea(color1, 180, 200, 200, 200);
+dibujarLinea(color1, 200, 200, 280, 200);
+dibujarLinea(color1, 280, 200, 280, 180);*/
+
+
+//boquita Opcion 2   u
+dibujarLinea(color1, 200, 180, 200, 200);
 dibujarLinea(color1, 200, 200, 280, 200);
 dibujarLinea(color1, 280, 200, 280, 180);
-
-
-
 
 
 
