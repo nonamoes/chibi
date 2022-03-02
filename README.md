@@ -1,3 +1,3 @@
 # chibi
 
-Canvas ~
+Canvas con JS~
