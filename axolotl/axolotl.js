@@ -18,6 +18,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
     lienzo.strokeStyle=color;  
     lienzo.moveTo(xinicial, yinicial);
     lienzo.lineTo(xfinal, yfinal);
+    lienzo.lineWidth = 5;
     //lienzo.fillStyle
     lienzo.stroke();
     lienzo.closePath(); 
